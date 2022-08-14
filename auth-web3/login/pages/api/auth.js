@@ -15,5 +15,5 @@ export default function auth(req, res) {
     user.nonce = nonce;
     users[address] = user;
   }
-  res.status(200).json(user);
+  res.status(200).JSON.parse(user);
 }

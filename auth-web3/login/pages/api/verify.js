@@ -9,7 +9,8 @@ export default function verify(req, res) {
     user.nonce.toString(),
     signature
   );
-  if (address.toLowerCase() === decodedAddress.toLowerCase())
+  if (address.toLowerCase() === decodedAddress.toLowerCase()) {
     authenticated = true;
-  res.status(200).json({ authenticated });
+    res.status(200).json({ authenticated });
+  }
 }
