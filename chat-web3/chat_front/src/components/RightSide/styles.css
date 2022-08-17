@@ -1,24 +1,50 @@
-.rightSide {
-  width: 50vw;
+input,
+select,
+textarea {
+  margin-left: 1rem;
+  border: 1px solid rgb(177, 176, 176);
+  border-radius: 6px;
+  width: 85%;
+  min-width: 85%;
+  max-width: 85%;
+}
 
+.rightside {
+  width: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.posts {
+.rightside__posts {
   width: 100%;
-  height: 70vh;
+  height: 36rem;
 }
 
-.sendPost {
+.rightside__sendPost {
   margin-bottom: 2rem;
 }
 
-.sendPost input {
+.rightside__sendPost {
   width: 98%;
   height: 3rem;
 
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+.rightside__sendButton {
+  margin-left: 1rem;
+  border-radius: 50%;
+  background: rgb(126, 198, 126);
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+
+  font-size: 1.2rem;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

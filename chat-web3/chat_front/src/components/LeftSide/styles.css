@@ -1,14 +1,14 @@
-.leftSide {
+.leftside {
   font-family: "Montserrat", sans-serif;
   color: rgb(9, 34, 60);
   word-spacing: 1px;
 
-  width: 50vw;
-  height: 100vh;
+  width: 50rem;
+  height: 44rem;
   background-image: url("../../assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -27rem;
+  background-position-x: center;
 
   display: flex;
   flex-direction: column;
@@ -16,13 +16,22 @@
   justify-content: center;
 }
 
-.title {
-  background: rgba(219, 219, 219, 0.594);
+.leftside__content {
+  width: 16rem;
+  height: 14rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftside__title {
+  background: rgba(219, 219, 219, 0.594);
   font-size: 2.2rem;
 }
 
-.waveButton {
+.leftside__waveButton {
   cursor: pointer;
   margin-top: 16px;
   padding: 10px;

@@ -134,37 +134,12 @@ export default function App() {
   return (
     <div className="mainContainer">
       <LeftSide isAccount={currentAccount} callFunction={connectWallet} />
-      <RightSide />
-      {/* 
-      
-        <input value={value} onChange={change} />
-        <button className="waveButton" onClick={wave}>
-          Mandar Tchauzinho 🌟
-        </button>
-
-        {!currentAccount && (
-          <button className="waveButton" onClick={connectWallet}>
-            Conectar carteira
-          </button>
-        )}
-
-        {allWaves.map((wave, index) => {
-          return (
-            <div
-              key={index}
-              style={{
-                backgroundColor: "OldLace",
-                marginTop: "16px",
-                padding: "8px",
-              }}
-            >
-              <div>Endereço: {wave.address}</div>
-              <div>Data/Horário: {wave.timestamp.toString()}</div>
-              <div>Mensagem: {wave.message}</div>
-            </div>
-          );
-        })}
-      </div> */}
+      <RightSide
+        initialValue={value}
+        controlValue={change}
+        callFunction={wave}
+        data={allWaves}
+      />
     </div>
   );
 }
