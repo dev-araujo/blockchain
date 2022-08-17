@@ -16,9 +16,15 @@ textarea {
   justify-content: space-between;
 }
 
+.rightside--noPosts {
+  width: 40rem;
+  height: 100vh;
+  background: rgb(161, 161, 217);
+}
+
 .rightside__posts {
   width: 100%;
-  height: 36rem;
+  height: 40rem;
 
   display: flex;
   flex-direction: column-reverse;

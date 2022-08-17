@@ -135,6 +135,7 @@ export default function App() {
   return (
     <div className="mainContainer">
       <LeftSide isAccount={currentAccount} callFunction={connectWallet} />
+
       <RightSide
         initialValue={value}
         controlValue={change}
