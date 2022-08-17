@@ -89,6 +89,7 @@ export default function App() {
       });
 
       console.log("Conectado", accounts[0]);
+      checkIfWalletIsConnected();
       setCurrentAccount(accounts[0]);
     } catch (error) {
       console.log(error);

@@ -19,13 +19,14 @@ textarea {
 .rightside__posts {
   width: 100%;
   height: 36rem;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
 .rightside__sendPost {
   margin-bottom: 2rem;
-}
-
-.rightside__sendPost {
   width: 98%;
   height: 3rem;
 
