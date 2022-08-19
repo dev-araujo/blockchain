@@ -8,3 +8,10 @@ Repositório de estudo e projetos em desenvolvimento **blockchain**.
 ## Projetos
 
  - [**Chat Web3**](https://github.com/dev-araujo/blockchain/tree/main/chat-web3)
+
+
+
+
+
+---
+<img src="https://i.pinimg.com/originals/ca/bd/8b/cabd8bdddc0e14a889b79644ca70ad21.gif" width="60%"/>
