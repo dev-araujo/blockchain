@@ -97,7 +97,9 @@ export default function App() {
   };
 
   useEffect(() => {
-    checkIfWalletIsConnected();
+    setInterval(() => {
+      checkIfWalletIsConnected();
+    }, 600);
   }, []);
 
   const wave = async () => {
@@ -112,6 +114,10 @@ export default function App() {
           contractABI,
           signer
         );
+
+        setValue("");
+
+        getAllWaves();
 
         let count = await wavePortalContract.getTotalWaves();
         console.log("Recuperado o número de tchauzinhos...", count.toNumber());

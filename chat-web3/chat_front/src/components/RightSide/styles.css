@@ -7,34 +7,41 @@ textarea {
   width: 85%;
   min-width: 85%;
   max-width: 85%;
+
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 
 .rightside {
-  width: 40rem;
+  width: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.rightside--noPosts {
-  width: 40rem;
-  height: 100vh;
-  background: rgb(161, 161, 217);
-}
-
 .rightside__posts {
   width: 100%;
-  height: 40rem;
-
+  height: 42rem;
+  margin-top: 2rem;
+  overflow: auto;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
 .rightside__sendPost {
-  margin-bottom: 2rem;
   width: 98%;
-  height: 3rem;
+  height: 2rem;
 
   display: flex;
   align-items: center;

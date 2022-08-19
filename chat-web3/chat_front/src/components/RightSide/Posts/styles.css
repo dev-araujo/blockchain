@@ -1,0 +1,26 @@
+.rightside__post--unique {
+  height: 40rem;
+  margin-bottom: 2.5rem;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.rightside__post--unique span {
+  font-weight: 600;
+  padding-right: 6px;
+}
+
+.rightside__post--unique .post-card {
+  margin-top: 0.3rem;
+  display: flex;
+}
+
+.rightside__post--unique .post-card-message {
+  background: rgba(61, 139, 172, 0.501);
+  padding: 1px;
+  border-radius: 3px;
+  color: rgb(7, 34, 63);
+  letter-spacing: 1px;
+  font-weight: 600;
+}
