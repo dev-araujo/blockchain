@@ -24,16 +24,15 @@
 
 ## Feito com 🔨
 
-Smart-contract:
-
- - **Solidity**
- - [Hardhat ](https://hardhat.org/)
- - [Ethers.js](https://docs.ethers.io/v5/)
- - [Alchemy](https://www.alchemy.com/)
+- Smart-contract:
+  - **Solidity**
+  - [Hardhat ](https://hardhat.org/)
+  - [Ethers.js](https://docs.ethers.io/v5/)
+  - [Alchemy](https://www.alchemy.com/)
  
- Front-end:
- - React Js
- - [Ethers.js](https://docs.ethers.io/v5/)
+ - Front-end:
+   - React Js
+   - [Ethers.js](https://docs.ethers.io/v5/)
  
  
  #### Author 👷
