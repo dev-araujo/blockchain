@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
+import { ABI } from "./../ABI";
 import abi from "./utils/WavePortal.json";
-import { ABI } from "./utils/ABI";
 import { LeftSide, RightSide } from "./components";
 import "./App.css";
 
