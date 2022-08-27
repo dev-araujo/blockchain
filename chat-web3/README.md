@@ -4,7 +4,7 @@
 
 ## 💻 Projeto
 
- Este projeto é um **chat** onde as mensagens são armazenadas e recuperadas para exibição por meio da **rede blockchain**, especificamente na rede Rinkeby Testnet.
+ Este projeto(feito durante o bootcamp da [Web3Dev](https://bootcamp.web3dev.com.br/)) é um **chat** onde as mensagens são armazenadas e recuperadas para exibição por meio da **rede blockchain**, especificamente na rede Rinkeby Testnet.
  
 
 - O resultado pode ser conferido :arrow_right: [**AQUI**](https://chat-web3.dev-araujo.repl.co/)
