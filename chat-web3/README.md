@@ -1,6 +1,8 @@
 # Chat web3
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
 
+> A rede Rinkeby testnet foi descontinuada 😢. 
+  Este projeto será adaptado utilizando outra rede de teste 
 
 ## 💻 Projeto
 
