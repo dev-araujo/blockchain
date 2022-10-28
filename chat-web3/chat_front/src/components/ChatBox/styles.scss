@@ -1,0 +1,52 @@
+.box {
+  width: 380px;
+  height: 500px;
+  border-radius: 4%;
+  border: solid 1px gray;
+
+  &__content {
+    height: 440px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  header {
+    height: 2rem;
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: gray;
+  }
+  footer {
+    height: auto;
+
+    .message {
+      margin-bottom: 0;
+
+      padding: 1rem;
+      width: 100%;
+      background: white;
+      border-bottom: 1px solid white;
+      border-top: 1px solid gray;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+
+      ::-webkit-scrollbar {
+        width: 2px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid rgb(124, 124, 183);
+
+        -webkit-border-radius: 10px;
+        border-radius: 1px;
+      }
+    }
+  }
+
+  button {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}

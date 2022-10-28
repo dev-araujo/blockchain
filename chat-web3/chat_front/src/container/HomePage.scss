@@ -1,0 +1,8 @@
+.wallpaper {
+  width: 420px;
+  height: 420px;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
