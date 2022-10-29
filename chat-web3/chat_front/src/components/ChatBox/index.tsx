@@ -1,41 +1,37 @@
-import TextField from "@mui/material/TextField";
-import { Props } from "./model";
-import "./styles.scss";
+import TextField from "@mui/material/TextField"
+import { Messages } from "./components/messages"
+import { Props } from "./model"
+import "./styles.scss"
 
 export function ChatBox(props: Props) {
   return (
-    <section className="box d-flex flex-column justify-content-between">
+    <section className='box d-flex flex-column justify-content-between'>
       <header>
-        <i className="bi bi-chat-dots text-white"></i>
+        <i className='bi bi-chat-dots text-white'></i>
       </header>
 
-      <div className="box__content">
+      <div className='box__content'>
         {props.messages.map((wave: any, index: any) => {
           return (
-            <div
-              key={index}
-              style={{
-                backgroundColor: "OldLace",
-                marginTop: "16px",
-                padding: "8px",
-              }}
-            >
-              <p>Endereço: {wave.address}</p>
-              <p>Data/Horário: {wave.timestamp.toString()}</p>
-              <p>Mensagem: {wave.message}</p>
+            <div key={index}>
+              <Messages
+                address={wave.address}
+                text={wave.message}
+                date={wave.timestamp.toLocaleDateString()}
+              />
             </div>
-          );
+          )
         })}
       </div>
 
       <footer>
         <TextField
-          variant="standard"
+          variant='standard'
           InputProps={{
             disableUnderline: true,
           }}
-          className="message"
-          placeholder="Conecte-se para poder enviar suas mensagens"
+          className='message'
+          placeholder='Conecte-se para poder enviar suas mensagens'
           multiline
           rows={2}
           maxRows={4}
@@ -45,11 +41,11 @@ export function ChatBox(props: Props) {
       </footer>
       <button
         disabled={props.enableButton}
-        className="btn btn-primary"
+        className='btn btn-primary'
         onClick={props.sendMessage}
       >
         enviar
       </button>
     </section>
-  );
+  )
 }
