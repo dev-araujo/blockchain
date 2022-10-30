@@ -2,25 +2,24 @@
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
 
 > A rede Rinkeby testnet foi descontinuada 😢. 
-  Este projeto será adaptado utilizando outra rede de teste 
+  Este projeto está sendo adaptado utilizando TESTNET Goerli
 
 ## 💻 Projeto
 
- Este projeto(feito durante o bootcamp da [Web3Dev](https://bootcamp.web3dev.com.br/)) é um **chat** onde as mensagens são armazenadas e recuperadas para exibição por meio da **rede blockchain**, especificamente na rede Rinkeby Testnet.
+ Este projeto(feito durante o bootcamp da [Web3Dev](https://bootcamp.web3dev.com.br/) e **totalmente adaptado durante o processo**) é um **chat** onde as mensagens são armazenadas e recuperadas para exibição por meio da **rede blockchain**, especificamente na rede Goerli Testnet.
  
 
-- O resultado pode ser conferido :arrow_right: [**AQUI**](https://chat-web3.dev-araujo.repl.co/)
+![image](https://user-images.githubusercontent.com/97068163/198857508-8d76f628-8c71-4a7d-b894-655d9e9f9c4b.png)
 
-![wbechat](https://user-images.githubusercontent.com/97068163/185650309-fa7190d2-98f2-4352-a5bf-587bed05fe7c.png)
 
 ---
 
 **Features:**
  - Autenticação por meio da Metamask
- - Possiblidade de envio de mensagens utilizando ETH falso, você pode os conseguir [aqui](https://rinkebyfaucet.com/)
+ - Possiblidade de envio e visualização de mensagens utilizando ETH falso, você pode os conseguir [aqui](https://goerlifaucet.com/)
 
 **Estrutura**
- - `chat` => Aqui está o _smart-contract_ responsável pela conexão com a blockchain, uma espécie  _"backend com um banco de dados descentralizado"_
+ - `chat` => Aqui está o _smart-contract_ responsável pela conexão com a **blockchain**
  - `chat_front` => Aqui está a aplicação front-end
  
 
@@ -34,7 +33,14 @@
  
  - Front-end:
    - React Js
+   - Bootstrap
+   - SCSS
+   - TypeScript
+   - Axios
+   - Material UI
+   - [DiceBear API](https://avatars.dicebear.com/) (para geração de avatares personalizados para cada usuário do chat)
    - [Ethers.js](https://docs.ethers.io/v5/)
+ 
  
  
  #### Author 👷
