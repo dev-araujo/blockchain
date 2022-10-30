@@ -1,6 +1,8 @@
+@import "../../styles/variables.scss";
+
 .box {
-  width: 380px;
-  height: 500px;
+  width: 400px;
+  height: 540px;
   border-radius: 4%;
   border: solid 1px gray;
 
@@ -9,13 +11,17 @@
     overflow-y: auto;
     overflow-x: hidden;
   }
+  &__no-messages {
+    color: $light-gray;
+    margin-top: 4rem;
+  }
   header {
     height: 2rem;
     width: 100%;
     padding: 10px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    background: gray;
+    background: $gray;
   }
   footer {
     height: auto;
@@ -42,6 +48,15 @@
         -webkit-border-radius: 10px;
         border-radius: 1px;
       }
+    }
+
+    .wallpaper {
+      width: 320px;
+      height: 320px;
+
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 

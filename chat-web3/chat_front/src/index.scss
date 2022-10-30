@@ -1,3 +1,17 @@
-.fs-1 {
-  font-size: 12px !important;
+html,
+* {
+  font-family: "Roboto", sans-serif !important;
+
+  ::-webkit-scrollbar {
+    background-color: #dfdfdf;
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(102, 148, 239, 0.638);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(44, 123, 192, 0.5);
+  }
 }
