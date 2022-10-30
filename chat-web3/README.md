@@ -3,6 +3,8 @@
 
 > A rede Rinkeby testnet foi descontinuada 😢. 
   Este projeto está sendo adaptado utilizando TESTNET Goerli
+  
+> ⚠️ Este projeto está em construção
 
 ## 💻 Projeto
 
@@ -19,8 +21,8 @@
  - Possiblidade de envio e visualização de mensagens utilizando ETH falso, você pode os conseguir [aqui](https://goerlifaucet.com/)
 
 **Estrutura**
- - `chat` => Aqui está o _smart-contract_ responsável pela conexão com a **blockchain**
- - `chat_front` => Aqui está a aplicação front-end
+ - `blockchain_chat` => [Aqui](https://github.com/dev-araujo/blockchain/tree/main/chat-web3/blockchain_chat) está o _smart-contract_ responsável pela conexão com a **blockchain**
+ - `chat_front` => [Aqui](https://github.com/dev-araujo/blockchain/tree/main/chat-web3/chat_front) está a aplicação front-end
  
 
 ## Feito com 🔨
