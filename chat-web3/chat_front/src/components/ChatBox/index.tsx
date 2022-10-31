@@ -17,17 +17,19 @@ export function ChatBox(props: Props) {
 
       <div className='box__content'>
         {listMessages.length > 0 ? (
-          listMessages.map((post: any, index: any) => {
-            return (
-              <div key={index}>
-                <Messages
-                  address={post.address}
-                  text={post.message}
-                  date={post.timestamp.toLocaleDateString()}
-                />
-              </div>
-            )
-          })
+          listMessages
+            .map((post: any, index: any) => {
+              return (
+                <div key={index}>
+                  <Messages
+                    address={post.address}
+                    text={post.message}
+                    date={post.timestamp.toLocaleDateString()}
+                  />
+                </div>
+              )
+            })
+            .reverse()
         ) : (
           <div className='text-center box__no-messages'>
             Para acessar as mensagens conecte sua metamask
