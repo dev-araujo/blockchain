@@ -11,7 +11,7 @@ export function ChatBox(props: Props) {
 
   return (
     <section className='box d-flex flex-column justify-content-between'>
-      <header className='pb-4 d-flex justify-content-end '>
+      <header className='pb-4 bg-primary d-flex justify-content-end '>
         <i className='bi bi-chat-dots text-white me-2 h5'></i>
       </header>
 
@@ -24,7 +24,7 @@ export function ChatBox(props: Props) {
                   <Messages
                     address={post.address}
                     text={post.message}
-                    date={post.timestamp.toLocaleDateString()}
+                    date={post.timestamp.toLocaleString()}
                   />
                 </div>
               )
