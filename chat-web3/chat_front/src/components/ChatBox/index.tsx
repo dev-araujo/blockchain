@@ -24,7 +24,11 @@ export function ChatBox(props: Props) {
                   <Messages
                     address={post.address}
                     text={post.message}
-                    date={post.timestamp.toLocaleString()}
+                    date={`${post.timestamp
+                      .toLocaleString()
+                      .substring(0, 9)} às ${post.timestamp
+                      .toLocaleString()
+                      .substring(10)} `}
                   />
                 </div>
               )
