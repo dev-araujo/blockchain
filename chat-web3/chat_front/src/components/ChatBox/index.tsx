@@ -36,7 +36,13 @@ export function ChatBox(props: Props) {
             .reverse()
         ) : (
           <div className='text-center box__no-messages'>
-            Para acessar as mensagens conecte sua metamask
+            Para acessar as mensagens conecte sua metamask com a{" "}
+            <a
+              href='https://blog.cryptostars.is/goerli-g%C3%B6rli-testnet-network-to-metamask-and-receiving-test-ethereum-in-less-than-2-min-de13e6fe5677'
+              target='_blank'
+            >
+              <u>rede Goerli Testnet</u>
+            </a>
           </div>
         )}
       </div>
