@@ -16,7 +16,7 @@
 
 **Features:**
  - Autenticação por meio da Metamask
- - Possiblidade de envio e visualização de mensagens utilizando ETH falso, você pode os conseguir [aqui](https://goerlifaucet.com/)
+ - Possiblidade de envio e visualização de mensagens utilizando **ETH falso, você pode os conseguir [aqui](https://goerlifaucet.com/)**
 
 **Estrutura**
  - `blockchain_chat` => [Aqui](https://github.com/dev-araujo/blockchain/tree/main/chat-web3/blockchain_chat) está o _smart-contract_ responsável pela conexão com a **blockchain**
