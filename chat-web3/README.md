@@ -1,8 +1,6 @@
 # Chat web3
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
 
-> A rede Rinkeby testnet foi descontinuada 😢. 
-  Este projeto está sendo adaptado utilizando TESTNET Goerli
   
 > ⚠️ Este projeto está em construção
 
@@ -10,8 +8,8 @@
 
  Este projeto(feito durante o bootcamp da [Web3Dev](https://bootcamp.web3dev.com.br/) e **totalmente adaptado durante o processo**) é um **chat** onde as mensagens são armazenadas e recuperadas para exibição por meio da **rede blockchain**, especificamente na rede Goerli Testnet.
  
+![image](https://user-images.githubusercontent.com/97068163/201061975-a12a2ca5-75c5-4c8d-8a68-923b3ff62e23.png)
 
-![image](https://user-images.githubusercontent.com/97068163/198857508-8d76f628-8c71-4a7d-b894-655d9e9f9c4b.png)
 
 
 ---
